@@ -1,0 +1,3 @@
+C:/Users/crist/OneDrive/Documents/GitKraken/kea-c/cmake-build-debug/CMakeFiles/kea_c.dir
+C:/Users/crist/OneDrive/Documents/GitKraken/kea-c/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/crist/OneDrive/Documents/GitKraken/kea-c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
