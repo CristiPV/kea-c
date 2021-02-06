@@ -12,7 +12,7 @@ int main() {
     float price = 11.48f;
     exercise01(item, amount, price);
 
-    
+
 
     return 0;
 }

@@ -6,7 +6,7 @@
 void exercise01(char item[], int amount, float price) {
     float total,totalMoms,moms;
     total = price * (float)amount;
-    moms = (float)amount / 4.0f;
+    moms = (float)total / 4.0f;
     totalMoms = total + moms;
     printf("\n#------------------------------------#\n");
     printf("> Item: %s\n"
@@ -16,5 +16,8 @@ void exercise01(char item[], int amount, float price) {
            "> Moms: %10.2f\n"
            "> Total price all inclusive: %10.2f",item, amount, price, total, moms, totalMoms);
     printf("\n#------------------------------------#\n");
+};
+
+void exercise02() {
 
 };
