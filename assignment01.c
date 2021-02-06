@@ -49,13 +49,34 @@ void exercise03(void) {
     printf("\n#------------------------------------#\n");
 };
 
+// Loops
 void exercise04(void) {
     int days[]={31,28,31,30,31,30,31,31,30,31,30,31};
     int length = sizeof(days) / sizeof(days[0]);
+    int i;
 
+    printf("\nUsing a for loop\n");
     printf("\n#------------------------------------#\n");
-    for (int i = 0; i < length; i ++) {
+    for (i = 0; i < length; i ++) {
         printf("Month nr.%d contains %d days.\n", i+1, days[i]);
     }
+    printf("\n#------------------------------------#\n");
+
+    printf("\nUsing a while loop\n");
+    printf("\n#------------------------------------#\n");
+    i = 0;
+    while(i < length) {
+        printf("Month nr.%d contains %d days.\n", i + 1, days[i]);
+        i++;
+    };
+    printf("\n#------------------------------------#\n");
+
+    printf("\nUsing a do-while loop\n");
+    printf("\n#------------------------------------#\n");
+    i = 0;
+    do {
+        printf("Month nr.%d contains %d days.\n", i + 1, days[i]);
+        i++;
+    }while(i < length);
     printf("\n#------------------------------------#\n");
 };
