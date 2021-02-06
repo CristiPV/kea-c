@@ -16,5 +16,9 @@ int main() {
 
     exercise02();
 
+    printf("\nExercise 03\n");
+
+    exercise03();
+
     return 0;
 }

@@ -33,3 +33,18 @@ void exercise02(void) {
            "> String : %s", inputNumber, inputChar, inputString);
     printf("\n#------------------------------------#\n");
 };
+
+void exercise03(void) {
+    char c, string[50];
+
+    printf("\n#------------------------------------#\n");
+    printf("Type a string : \n");
+    // Emptying the buffer
+    getchar();
+    gets(string);
+    printf ("String: %s\n", string);
+    printf("Type a character : \n");
+    c = getchar();
+    printf("Character: %c\n", c);
+    printf("\n#------------------------------------#\n");
+};
