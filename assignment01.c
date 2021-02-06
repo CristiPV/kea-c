@@ -8,6 +8,7 @@ void exercise01(char item[], int amount, float price) {
     total = price * (float)amount;
     moms = (float)total / 4.0f;
     totalMoms = total + moms;
+
     printf("\n#------------------------------------#\n");
     printf("> Item: %s\n"
            "> Number: %d\n"
@@ -18,6 +19,17 @@ void exercise01(char item[], int amount, float price) {
     printf("\n#------------------------------------#\n");
 };
 
-void exercise02() {
+// Using scanf()
+void exercise02(void) {
+    int inputNumber;
+    char inputChar, inputString[50];
 
+    printf("\n#------------------------------------#\n");
+    printf("Type a Number, a Character and a String: \n");
+    scanf("%d %c %s", &inputNumber, &inputChar, inputString);
+    printf("Your input was: \n"
+           "> Number : %d\n"
+           "> Character : %c\n"
+           "> String : %s", inputNumber, inputChar, inputString);
+    printf("\n#------------------------------------#\n");
 };

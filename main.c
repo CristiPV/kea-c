@@ -12,7 +12,9 @@ int main() {
     float price = 11.48f;
     exercise01(item, amount, price);
 
+    printf("\nExercise 02\n");
 
+    exercise02();
 
     return 0;
 }
