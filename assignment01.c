@@ -105,4 +105,35 @@ void exercise05(void) {
         printf("I don't know any fruit with a %c.\n", c);
     }
     printf("\n#------------------------------------#\n");
+
+    printf("\nswitch\n");
+    printf("\n#------------------------------------#\n");
+    printf("Type a character: \n");
+    c = getchar();
+    getchar();
+    switch(c){
+        case 'a':
+        case 'A':
+            printf("Apple\n");
+            break;
+        case 'b':
+        case 'B':
+            printf("Banana\n");
+            break;
+        case 'c':
+        case 'C':
+            printf("Cherry\n");
+            break;
+        case 'd':
+        case 'D':
+            printf("Date\n");
+            break;
+        case 'e':
+        case 'E':
+            printf("Elderberry\n");
+            break;
+        default:
+            printf("I don't know any fruit with a %c.\n", c);
+    };
+    printf("\n#------------------------------------#\n");
 };
