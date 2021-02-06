@@ -7,4 +7,6 @@ void exercise02(void);
 
 void exercise03(void);
 
+void exercise04(void);
+
 #endif //KEA_C_ASSIGNMENT01_H

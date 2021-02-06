@@ -48,3 +48,14 @@ void exercise03(void) {
     printf("Character: %c\n", c);
     printf("\n#------------------------------------#\n");
 };
+
+void exercise04(void) {
+    int days[]={31,28,31,30,31,30,31,31,30,31,30,31};
+    int length = sizeof(days) / sizeof(days[0]);
+
+    printf("\n#------------------------------------#\n");
+    for (int i = 0; i < length; i ++) {
+        printf("Month nr.%d contains %d days.\n", i+1, days[i]);
+    }
+    printf("\n#------------------------------------#\n");
+};

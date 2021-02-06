@@ -4,6 +4,7 @@
 #include "assignment01.h"
 
 int main() {
+    //region Exercise 01
 
     printf("\nExercise 01\n");
 
@@ -12,13 +13,32 @@ int main() {
     float price = 11.48f;
     exercise01(item, amount, price);
 
+    //endregion
+
+    //region Exercise 02
+
     printf("\nExercise 02\n");
 
-    exercise02();
+    //exercise02();
+    printf("Skipped");
+
+    //endregion
+
+    //region Exercise 03
 
     printf("\nExercise 03\n");
 
-    exercise03();
+    //exercise03();
+    printf("Skipped");
 
+    //endregion
+
+    //region Exercise 04
+
+    printf("\nExercise 04\n");
+
+    exercise04();
+
+    //endregion
     return 0;
 }
