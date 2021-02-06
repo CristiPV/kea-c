@@ -3,6 +3,12 @@
 
 #include "assignment01.h"
 
+
+int math (int a) {
+    printf("\nCalculating %d times %d...\n", a, a);
+    return a*a;
+}
+
 int main() {
     //region Exercise 01
 
@@ -20,7 +26,7 @@ int main() {
     printf("\nExercise 02\n");
 
     //exercise02();
-    printf("Skipped");
+    printf("\nSkipped\n");
 
     //endregion
 
@@ -29,7 +35,7 @@ int main() {
     printf("\nExercise 03\n");
 
     //exercise03();
-    printf("Skipped");
+    printf("\nSkipped\n");
 
     //endregion
 
@@ -45,7 +51,22 @@ int main() {
 
     printf("\nExercise 05\n");
 
-    exercise05();
+    //exercise05();
+    printf("\nSkipped\n");
+
+    //endregion
+
+    //region Exercise 06
+
+    printf("\nExercise 06\n");
+
+    int a = 2, b = 4;
+
+    int result = math(a);
+    printf("Result of math procedure: %d\n",result);
+
+    int min = exercise06(a, b);
+    printf("Min between %d and %d is %d\n", a, b, min);
 
     //endregion
     return 0;

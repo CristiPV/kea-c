@@ -137,3 +137,10 @@ void exercise05(void) {
     };
     printf("\n#------------------------------------#\n");
 };
+
+// min
+int exercise06 (int a, int b) {
+    if (a < b)
+        return a;
+    return b;
+};

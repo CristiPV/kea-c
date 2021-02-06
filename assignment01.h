@@ -11,4 +11,6 @@ void exercise04(void);
 
 void exercise05(void);
 
+int exercise06(int a, int b);
+
 #endif //KEA_C_ASSIGNMENT01_H
