@@ -9,4 +9,6 @@ void exercise03(void);
 
 void exercise04(void);
 
+void exercise05(void);
+
 #endif //KEA_C_ASSIGNMENT01_H

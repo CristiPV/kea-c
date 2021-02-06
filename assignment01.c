@@ -34,6 +34,7 @@ void exercise02(void) {
     printf("\n#------------------------------------#\n");
 };
 
+// Other inputs
 void exercise03(void) {
     char c, string[50];
 
@@ -78,5 +79,30 @@ void exercise04(void) {
         printf("Month nr.%d contains %d days.\n", i + 1, days[i]);
         i++;
     }while(i < length);
+    printf("\n#------------------------------------#\n");
+};
+
+// if-else & switch
+void exercise05(void) {
+    char c;
+
+    printf("\nif-else\n");
+    printf("\n#------------------------------------#\n");
+    printf("Type a character: \n");
+    c = getchar();
+    getchar();
+    if (c == 'a' || c == 'A') {
+        printf("Apple\n");
+    } else if (c == 'b' || c == 'B') {
+        printf("Banana\n");
+    } else if (c == 'c' || c == 'C') {
+        printf("Cherry\n");
+    } else if (c == 'd' || c == 'D') {
+        printf("Date\n");
+    } else if (c == 'e' || c == 'E') {
+        printf("Elderberry\n");
+    } else {
+        printf("I don't know any fruit with a %c.\n", c);
+    }
     printf("\n#------------------------------------#\n");
 };

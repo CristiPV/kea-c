@@ -40,5 +40,13 @@ int main() {
     exercise04();
 
     //endregion
+
+    //region Exercise 05
+
+    printf("\nExercise 05\n");
+
+    exercise05();
+
+    //endregion
     return 0;
 }
