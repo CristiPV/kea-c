@@ -3,6 +3,7 @@
 
 #include "assignment01.h"
 #include "assignment02.h"
+#include "assignment03.h"
 
 int math (int a) {
     printf("\nCalculating %d times %d...\n", a, a);
@@ -10,6 +11,8 @@ int math (int a) {
 }
 
 int main() {
+    //region Assignment 01
+
     //region Exercise 01
 
     printf("\nExercise 01\n");
@@ -73,6 +76,10 @@ int main() {
 
     //endregion
 
+    //endregion
+
+    //region Assignment 02
+
     //region Exercise 07
 
     printf("\nExercise 07\n");
@@ -82,7 +89,8 @@ int main() {
             { {0, 0, 0, 0, 0, 0, 0}, 3 }
     };
 
-    exercise07(message);
+    //exercise07(message);
+    printf("\nSkipped\n");
 
     //endregion
 
@@ -90,8 +98,9 @@ int main() {
 
     printf("\nExercise 08\n");
 
-    exercise08(message);
-    exercise07(message);
+    //exercise08(message);
+    //exercise07(message);
+    printf("\nSkipped\n");
 
     //endregion
 
@@ -109,11 +118,12 @@ int main() {
             1, "Bertie", 59, "East", true
     };
 
-    exercise09( l2, l3 );
+    //exercise09( l2, l3 );
+    printf("\nSkipped\n");
 
     //endregion
 
-    //region 10
+    //region Exercise 10
 
     printf("\nExercise 10\n");
 
@@ -124,7 +134,56 @@ int main() {
             {3, "Diesel", 5, "South", true }
     };
 
-    exercise10( trains, 7, 4 );
+    //exercise10( trains, 7, 4 );
+    printf("\nSkipped\n");
+
+    //endregion
+
+    //endregion
+
+    //region Assignment 03
+
+    //region Exercise 12
+
+    printf("\nExercise 12\n");
+
+    exercise12();
+
+    //endregion
+
+    //region Exercise 13
+
+    printf("\nExercise 13\n");
+
+    int limit = 100;
+    exercise13( limit );
+
+    //endregion
+
+    //region Exercise 14
+
+    printf("\nExercise 14\n");
+
+    exercise14();
+
+    //endregion
+
+    //region Exercise 15
+
+    printf( "\nExercise 15\n" );
+
+    int number = 11;
+    exercise15( number );
+
+    //endregion
+
+    //region Exercise 16
+
+    printf("\nExercise 16\n");
+
+    exercise16();
+
+    //endregion
 
     //endregion
 
