@@ -5,6 +5,7 @@
 #include "assignment02.h"
 #include "assignment03.h"
 #include "assignment04.h"
+#include "assignment05.h"
 
 int math (int a) {
     printf("\nCalculating %d times %d...\n", a, a);
@@ -199,15 +200,17 @@ int main() {
 
     printf("\nExercise 17\n");
 
-    exercise17();
+    //exercise17();
+    printf("\nSkipped\n");
 
     //endregion
 
-    //region Exercise 18
+    //region Exercise 18 and 19
 
     printf( "\nExercise 18 and 19\n" );
 
-    exercise18And19();
+    //exercise18And19();
+    printf("\nSkipped\n");
 
     //endregion
 
@@ -215,17 +218,39 @@ int main() {
 
     printf( "\nExercise 20\n" );
 
-    exercise20();
+    //exercise20();
+    printf("\nSkipped\n");
 
     //endregion
 
-    //region Exercise 21
+    //region Exercise 21 and 22
 
     printf( "\nExercise 21 and 22\n" );
 
     int position = 23;
 
-    exercise21and22( position );
+    //exercise21and22( position );
+    printf("\nSkipped\n");
+
+    //endregion
+
+    //endregion
+
+    //region Assignment 05
+
+    //region Exercise 23
+
+    printf( "\nExercise 23\n" );
+
+    example1();
+
+    //endregion
+
+    //region Exercise 24
+
+    printf( "\nExercise 24\n" );
+
+    example2();
 
     //endregion
 
