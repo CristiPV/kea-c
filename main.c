@@ -4,6 +4,7 @@
 #include "assignment01.h"
 #include "assignment02.h"
 #include "assignment03.h"
+#include "assignment04.h"
 
 int math (int a) {
     printf("\nCalculating %d times %d...\n", a, a);
@@ -147,7 +148,8 @@ int main() {
 
     printf("\nExercise 12\n");
 
-    exercise12();
+    //exercise12();
+    printf("\nSkipped\n");
 
     //endregion
 
@@ -156,7 +158,8 @@ int main() {
     printf("\nExercise 13\n");
 
     int limit = 100;
-    exercise13( limit );
+    //exercise13( limit );
+    printf("\nSkipped\n");
 
     //endregion
 
@@ -164,7 +167,8 @@ int main() {
 
     printf("\nExercise 14\n");
 
-    exercise14();
+    //exercise14();
+    printf("\nSkipped\n");
 
     //endregion
 
@@ -173,7 +177,8 @@ int main() {
     printf( "\nExercise 15\n" );
 
     int number = 11;
-    exercise15( number );
+    //exercise15( number );
+    printf("\nSkipped\n");
 
     //endregion
 
@@ -181,7 +186,46 @@ int main() {
 
     printf("\nExercise 16\n");
 
-    exercise16();
+    //exercise16();
+    printf("\nSkipped\n");
+
+    //endregion
+
+    //endregion
+
+    //region Assignment 04
+
+    //region Exercise 17
+
+    printf("\nExercise 17\n");
+
+    exercise17();
+
+    //endregion
+
+    //region Exercise 18
+
+    printf( "\nExercise 18 and 19\n" );
+
+    exercise18And19();
+
+    //endregion
+
+    //region Exercise 20
+
+    printf( "\nExercise 20\n" );
+
+    exercise20();
+
+    //endregion
+
+    //region Exercise 21
+
+    printf( "\nExercise 21 and 22\n" );
+
+    int position = 23;
+
+    exercise21and22( position );
 
     //endregion
 
